@@ -1,0 +1,47 @@
+# Node artifacts (if any front-end work)
+node_modules/
+npm-debug.log
+
+# Composer (in case you use it later)
+vendor/
+composer.lock
+
+# Mac system files
+.DS_Store
+
+# Docker volumes (if mapped)
+db_data/
+
+# IDE files
+*.swp
+*.swo
+*.swn
+*.sublime-project
+*.sublime-workspace
+.idea/
+.vscode/
+
+# Log files
+*.log
+logs/
+app/logs/
+
+# Cache
+cache/
+application/cache/
+application/logs/
+
+# CodeIgniter writable folders
+application/logs/*
+!application/logs/index.html
+
+application/cache/*
+!application/cache/index.html
+
+# Environment files (if you add them later)
+.env
+.env.*
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
